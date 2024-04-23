@@ -6,6 +6,8 @@ build*/
 bin*/
 lib*/
 lesson*/**/.gitignore
+lesson*/**/.sln
+lesson*/**/.vcxproj
 
 .sln
 .vcxproj
