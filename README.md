@@ -11,5 +11,4 @@ Lessons:
 - [ ] - Lesson 06 - STL. Part 2
 - [ ] - Lesson 07 - Smart pointers
 - [ ] - Lesson 08 - Move semantics
-- [ ] - Lesson 09 - Collapsible webinar
 - [ ] - Final work “INI File Parser”
