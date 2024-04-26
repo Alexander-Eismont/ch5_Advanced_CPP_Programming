@@ -8,6 +8,7 @@ lib*/
 lesson*/**/.gitignore
 lesson*/**/.sln
 lesson*/**/.vcxproj
+.idea
 
 .sln
 .vcxproj
