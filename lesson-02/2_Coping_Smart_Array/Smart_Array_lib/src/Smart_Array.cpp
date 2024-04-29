@@ -9,6 +9,15 @@ Smart_Array::Smart_Array(int capacity)
     m_arr = new int[capacity];
 }
 
+Smart_Array::Smart_Array(const Smart_Array &other)
+    : m_size{other.m_size}, m_capacity{other.m_capacity}
+{
+    m_arr = new int[m_capacity];
+
+    for (int i = 0; i < m_size; i++)
+        m_arr[i] = other.m_arr[i];
+}
+
 Smart_Array::~Smart_Array() { delete[] m_arr; }
 
 void Smart_Array::add_element(int element)

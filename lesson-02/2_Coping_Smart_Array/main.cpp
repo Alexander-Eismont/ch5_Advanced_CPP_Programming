@@ -10,11 +10,13 @@ int main()
         arr.add_element(1);
         arr.add_element(2);
         arr.add_element(3);
+        std::cout<<arr.get_element(0)<<"\n";
 
         Smart_Array new_arr{2};
 
         new_arr.add_element(11);
         new_arr.add_element(22);
+        std::cout<<new_arr.get_element(0)<<"\n";
 
         arr = new_arr;
     }
