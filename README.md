@@ -4,7 +4,7 @@ Chapter 5: Advanced C++ Programming
 Lessons:
 
 - [x] - Lesson 01 - Under the hood: compilation and linking
-- [ ] - Lesson 02 - Life cycle of an object. RAII
+- [x] - Lesson 02 - Life cycle of an object. RAII
 - [ ] - Lesson 03 - Testing
 - [ ] - Lesson 04 - Templates and functors
 - [ ] - Lesson 05 - STL. Part 1
