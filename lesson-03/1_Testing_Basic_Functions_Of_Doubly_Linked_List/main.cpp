@@ -97,7 +97,7 @@ TEST_CASE("Test Empty() method", "[Empty]")
     List lst;
     const int num = 1;
 
-    CHECK(lst.Empty() == true);
+    REQUIRE(lst.Empty() == true);
 
     lst.PushBack(num);
 
@@ -123,9 +123,9 @@ TEST_CASE("Test Clear() method", "[Clear]")
 
     lst.PushBack(num);
 
-    REQUIRE(lst.Size()!=0);
+    REQUIRE(lst.Size() != 0);
 
     lst.Clear();
 
-    REQUIRE(lst.Size()==0);
+    REQUIRE(lst.Size() == 0);
 }
