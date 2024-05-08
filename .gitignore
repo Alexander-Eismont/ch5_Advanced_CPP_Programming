@@ -6,12 +6,9 @@ build*/
 bin*/
 lib*/
 lesson*/**/.gitignore
-lesson*/**/.sln
-lesson*/**/.vcxproj
 .idea
+*/Catch2*/
 
-.sln
-.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
 CMakeLists.txt.user
