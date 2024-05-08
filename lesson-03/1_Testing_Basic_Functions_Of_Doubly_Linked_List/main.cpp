@@ -92,8 +92,6 @@ private:
     unsigned long m_size;
 };
 
-//empty, size, clear
-
 TEST_CASE("Test Empty() method", "[Empty]")
 {
     List lst;
@@ -125,10 +123,9 @@ TEST_CASE("Test Clear() method", "[Clear]")
 
     lst.PushBack(num);
 
-    REQUIRE(lst.Size() != 0);
+    REQUIRE(lst.Size()!=0);
 
     lst.Clear();
 
-    REQUIRE(lst.Size() == 0);
-
+    REQUIRE(lst.Size()==0);
 }
