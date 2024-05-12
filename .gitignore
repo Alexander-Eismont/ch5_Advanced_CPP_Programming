@@ -13,3 +13,4 @@ lesson*/**/Catch2*/
 *.vcxproj.user
 CMakeLists.txt.user
 *.json
+*.xml
