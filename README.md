@@ -7,7 +7,7 @@ Lessons:
 - [x] - Lesson 02 - Life cycle of an object. RAII
 - [x] - Lesson 03 - Testing
 - [x] - Lesson 04 - Templates and functors
-- [ ] - Lesson 05 - STL. Part 1
+- [x] - Lesson 05 - STL. Part 1
 - [ ] - Lesson 06 - STL. Part 2
 - [ ] - Lesson 07 - Smart pointers
 - [ ] - Lesson 08 - Move semantics
