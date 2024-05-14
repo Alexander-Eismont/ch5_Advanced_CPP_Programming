@@ -59,7 +59,6 @@ const T* Table<T>::operator[](int index) const { return m_table[index]; }
 template<class T>
 int Table<T>::size() const { return m_rows * m_columns; }
 
-// Explicit instantiation for all types used
 template
 class Table<int>;
 

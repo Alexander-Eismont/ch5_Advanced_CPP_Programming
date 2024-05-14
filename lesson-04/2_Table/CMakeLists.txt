@@ -1,8 +1,3 @@
-# Sources
-file(GLOB SRCS "Table/*.cpp")
-#Headers
-file(GLOB HDRS "Table/*.h")
-
 cmake_minimum_required(VERSION 3.29)
 project(Tables)
 
@@ -12,8 +7,4 @@ set(EXECUTABLE_OUTPUT_PATH ../bin/)
 
 include_directories(Table)
 
-add_library(table_lib STATIC ${SRCS} ${HDRS})
-
-add_executable(${PROJECT_NAME} main.cpp)
-
-target_link_libraries(${PROJECT_NAME} table_lib)
+add_executable(${PROJECT_NAME} main.cpp Table/Table.cpp)
