@@ -10,7 +10,7 @@ public:
 
     My_Vector(const My_Vector& other) : m_size(other.m_size), m_capacity(other.m_capacity)
     {
-        m_vector = new T* [m_capacity];
+        m_vector = new T [m_capacity];
 
         for (int i = 0; i < m_size; i++)
             m_vector[i] = other.m_vector[i];
@@ -42,7 +42,7 @@ public:
         return m_vector[index];
     }
 
-    void push_back(T element)
+    void push_back(const T& element)
     {
         if (m_size >= m_capacity)
             increase_capacity();
